@@ -38,3 +38,10 @@ h1:hover::after {
     margin-right: auto;
     border-radius: 5%;
 }
+
+#gnarp {
+    width: 40%;
+    display: block;
+    margin: auto;
+
+}
