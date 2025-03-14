@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(160, 60, 60);
+}
+
+
+.navItems {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+.navItems li {
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:hover {
+    color: aliceblue;
+    font-size: 40px;
+    transition: ease 4s;
+}
+
+h1:hover::after {
+    content: "(Alien Life Confirmed)";
+    transition: ease 4s;
+}
+
+#meteor {
+    display: block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
