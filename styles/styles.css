@@ -39,9 +39,20 @@ h1:hover::after {
     border-radius: 5%;
 }
 
-#gnarp {
+#gnarp, #glorb, #proof {
     width: 40%;
     display: block;
     margin: auto;
+}
 
+form{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(33, 35, 172, 0.144);
 }
